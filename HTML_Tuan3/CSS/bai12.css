@@ -1,0 +1,23 @@
+.wrapper{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    transform: scroll;
+}
+
+
+
+@keyframes  scroll{
+    to {
+        transform: rotate(-45deg);
+    }
+
+}
+
+@-webkit-keyframes scroll {
+    to{
+        transform: rotate(-45deg);
+    }
+}
+
+
